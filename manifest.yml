@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: rasppk1
+  host: rasppk1
+  disk_quota: 1024M
+  services:
+  - rasppk1-cloudantNoSQLDB
+  - rasppk1-iotf-service
